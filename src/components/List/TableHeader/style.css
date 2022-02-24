@@ -9,10 +9,19 @@
     border-radius: 10px;
 }
 
- .column-title {
+.column-title {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 45px;
     width: 150px;
+}
+
+.column-title span {
+    margin-right: 5px;
+}
+
+.column-title img {
+    width: 10px;
+    margin-top: 5px;
 }
