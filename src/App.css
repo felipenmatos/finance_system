@@ -1,4 +1,6 @@
 main {
+  display: flex;
+  gap: 30px;
   background-color: #FFFFFF;
   border-radius: 60px 60px 0px 0px;
   height: calc(100vh - 220px);
