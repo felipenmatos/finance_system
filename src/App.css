@@ -7,3 +7,13 @@ main {
   margin-top: -100px;
   padding: 50px 90px;
 }
+
+.btn-insert-register {
+  width: 260px;
+  height: 42px;
+  margin-top: 16px;
+  background: linear-gradient(91.26deg, #FA8C10 0%, #FF57D3 97.77%);
+  border: 0px;
+  border-radius: 5px;
+  color: #FFFFFF;
+}

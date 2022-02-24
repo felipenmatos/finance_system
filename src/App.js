@@ -10,7 +10,13 @@ function App() {
       <Header/>
       <main>
         <List />
-        <Resumo />
+        <div>
+          <Resumo />
+          <button className='btn-insert-register'>
+            Adcionar Registro
+          </button>
+        </div>
+        
       </main>
     </div>
   );
