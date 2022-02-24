@@ -1,0 +1,18 @@
+.table-head {
+    height: 40px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+ .column-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 150px;
+}
