@@ -1,0 +1,52 @@
+
+.backdrop {
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background: rgba(61, 61, 61, 0.48); 
+  }
+  
+  
+  .modal-content {
+    border-radius: 12px;
+    position: absolute;
+    background: #FFFFFF;
+    padding: 0 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+    width: 400px;
+    height: 550px;
+  }
+
+  .close-icon {
+    cursor: pointer;
+    position: absolute;
+    right: 55px;
+    top: 48px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .iconClose{
+    width: 20px;
+    margin-top: 30px;
+    margin-left: 360px;
+    cursor: pointer;
+  }
